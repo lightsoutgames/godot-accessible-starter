@@ -1,0 +1,3 @@
+[submodule "addons/godot-accessibility"]
+	path = addons/godot-accessibility
+	url = https://gitlab.com/lightsoutgames/godot-accessibility.git
