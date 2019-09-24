@@ -31,7 +31,7 @@ from within this repository and start building your game!
 ## What's in the box?
 
  * The accessibility plugin is automatically loaded, eliminating the need to use the inaccessible editor to enable it.
- * TTS is loaded in a global script which is available in every node. Run `Globals.tts.speak("Text to speak", interrupt)` from anywhere in your code to speak something. See _scenes/Main.gd_ as an example.
+ * TTS is loaded in a global script which is available in every node. Run `TTS.speak("Text to speak", interrupt)` from anywhere in your code to speak something. See _scenes/Main.gd_ as an example.
  * A Main scene with a script is created, and set as the launch scene.
 
 ## Accessibility tips
