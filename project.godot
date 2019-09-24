@@ -19,7 +19,7 @@ run/main_scene="res://scenes/Main.tscn"
 
 [autoload]
 
-Globals="*res://scripts/Globals.gd"
+TTS="*res://addons/godot-tts/TTS.gd"
 
 [editor_plugins]
 
