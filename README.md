@@ -5,7 +5,7 @@ This starter project sets up [Godot](https://godotengine.org) with the [accessib
 ## Supported platforms
 
  * Linux via Speech Dispatcher
- * Windows via Tolk, including SAPI support for anyone not using a screen reader
+ * Windows via Tolk, including SAPI support for anyone not using a screen reader (not yet tested but code is written)
 
 ## Usage
 
@@ -13,12 +13,9 @@ This starter project sets up [Godot](https://godotengine.org) with the [accessib
 $ git clone --recursive https://gitlab.com/lightsoutgames/godot-accessible-starter yourgame
 $ cd yourgame
 $ git remote rm origin
+$ wget "https://gitlab.com/lightsoutgames/godot-tts/-/jobs/artifacts/master/download?job=publish" -O addons/godot-tts.zip
+$ unzip -d addons addons/godot-tts.zip
 ```
-
-Next, download the latest [godot-tts plugin build](https://ci.appveyor.com/api/projects/ndarilek/godot-tts/artifacts/godot-tts.zip?job=Image:%20ubuntu) and unzip it in _addons/_. This will give you a directory layout including _addons/godot-tts/target_ and other directories containing the pre-built binaries for each platform.
-
-Then, as a bonus, [compile](https://docs.godotengine.org/en/3.1/development/compiling/) my [engine fork](https://github.com/ndarilek/godot/tree/accessibility). This step is optional. If you don't compile the fork, here are things that won't currently work, updated as PRs get merged:
- * Navigating between buttons in tree columns won't work. This means you can't accessibly add input events to actions, for instance.
 
 Finally run:
 
