@@ -13,7 +13,8 @@ This starter project sets up [Godot](https://godotengine.org) with the [accessib
 $ git clone --recursive https://gitlab.com/lightsoutgames/godot-accessible-starter yourgame
 $ cd yourgame
 $ git remote rm origin
-$ wget "https://gitlab.com/lightsoutgames/godot-tts/-/jobs/artifacts/master/download?job=publish" -O addons/godot-tts.zip
+$ # Any release from https://github.com/lightsoutgames/godot-tts/releases/ should do.
+$ wget https://github.com/lightsoutgames/godot-tts/releases/download/v0.3.1/godot-tts.zip -O addons/godot-tts.zip
 $ unzip -d addons addons/godot-tts.zip
 ```
 
