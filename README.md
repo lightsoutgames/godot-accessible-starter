@@ -6,6 +6,7 @@ This starter project sets up [Godot](https://godotengine.org) with the [accessib
 
  * Linux via Speech Dispatcher
  * Windows via Tolk, including SAPI support for anyone not using a screen reader (not yet tested but code is written)
+ * Android
 
 ## Usage
 
@@ -30,11 +31,12 @@ from within this repository and start building your game!
 
  * The accessibility plugin is automatically loaded, eliminating the need to use the inaccessible editor to enable it.
  * TTS is loaded in a global script which is available in every node. Run `TTS.speak("Text to speak", interrupt)` from anywhere in your code to speak something. See _scenes/Main.gd_ as an example.
+ * `ScreenReader` is also loaded as a global node, making in-game user interfaces automatically accessible.
  * A Main scene with a script is created, and set as the launch scene.
 
 ## Accessibility tips
 
- * Navigate to Editor -> Editor Settings -> External Editor, check the box, and enter a path to an accessible text editor. The embedded Godot script editor is not currently accessible, and may not be for a long time or at all.
+ * Navigate to Editor -> Editor Settings -> External Editor, check the box, and enter a path to an accessible text editor. The embedded Godot script editor is not currently accessible, and may not be for a long time or at all. VSCode is a good option.
 
 ## Testing
 
@@ -51,4 +53,4 @@ $ cd ..
 $ git commit godot-accessibility -m "Update accessibility plugin."
 ```
 
-or something similar. Likewise, you'll also likely want to upgrade the godot-tts plugin from time to time.
+or something similar. Likewise, you'll also likely want to upgrade the godot-tts plugin from time to time, and check this starter for current suggested best practices.

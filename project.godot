@@ -19,6 +19,7 @@ run/main_scene="res://scenes/Main.tscn"
 
 [autoload]
 
+ScreenReader="*res://addons/godot-accessibility/ScreenReader.gd"
 TTS="*res://addons/godot-tts/TTS.gd"
 
 [editor_plugins]
