@@ -18,6 +18,13 @@ $ # Any release from https://github.com/lightsoutgames/godot-tts/releases/ shoul
 $ wget https://github.com/lightsoutgames/godot-tts/releases/download/v0.3.1/godot-tts.zip -O addons/godot-tts.zip
 $ unzip -d addons addons/godot-tts.zip
 ```
+Windows-only: If you need speech in the editor and would prefer to use your screen reader, please perform the following additional steps:
+
+ * Place godot.exe in the working directory of your game.
+ * Copy all DLLs from addons\godot-tts\target\release to the game's working directory.
+ * Use the godot.exe executable in your game directory to edit and run the game.
+
+Without these changes, you'll only get SAPI speech in the editor. Exporting games correctly places dependent DLLs alongside the game executable, so these steps aren't needed if you only want accessibility during the game itself.
 
 Finally run:
 
