@@ -18,6 +18,7 @@ $ # Any release from https://github.com/lightsoutgames/godot-tts/releases/ shoul
 $ wget https://github.com/lightsoutgames/godot-tts/releases/download/v0.3.1/godot-tts.zip -O addons/godot-tts.zip
 $ unzip -d addons addons/godot-tts.zip
 ```
+
 Windows-only: If you need speech in the editor and would prefer to use your screen reader, please perform the following additional steps:
 
  * Place godot.exe in the working directory of your game.
