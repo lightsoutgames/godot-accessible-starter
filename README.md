@@ -1,6 +1,6 @@
 # Godot Accessible Starter
 
-This starter project sets up [Godot](https://godotengine.org) with the [accessibility](https://gitlab.com/lightsoutgames/godot-accessibility) and [TTS](https://gitlab.com/lightsoutgames/godot-tts) plugins so the editor is accessible.
+This starter project sets up [Godot](https://godotengine.org) with the [accessibility](https://github.com/lightsoutgames/godot-accessibility) and [TTS](https://github.com/lightsoutgames/godot-tts) plugins so the editor is accessible.
 
 ## Supported platforms
 
@@ -11,7 +11,7 @@ This starter project sets up [Godot](https://godotengine.org) with the [accessib
 ## Usage
 
 ```bash
-$ git clone --recursive https://gitlab.com/lightsoutgames/godot-accessible-starter yourgame
+$ git clone --recursive https://github.com/lightsoutgames/godot-accessible-starter yourgame
 $ cd yourgame
 $ git remote rm origin
 $ # Any release from https://github.com/lightsoutgames/godot-tts/releases/ should do.
